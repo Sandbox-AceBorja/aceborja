@@ -1,6 +1,6 @@
-## Portfolio
+# Portfolio
 
-# aceborja.github.io
+## aceborja.github.io
 This is a fork project from mark macneil the original author of <a href="https://mmacneil.github.io/devfolio/">devfolio</a>, I change some codes to incorporate my personal portfolio
 
 ## Setup
