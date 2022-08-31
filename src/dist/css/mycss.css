@@ -116,6 +116,10 @@
   background-color:#f0f2f5 !important;
 }
 
+.bg-blue {
+  background-color: #0056d2 !important;
+}
+
 .move-up {
   margin-top:-75px;
 }
