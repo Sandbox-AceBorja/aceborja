@@ -3,11 +3,16 @@
 
 <head>
   <title>Ace Borja</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="src/dist/img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="src/dist/css/main.bundle.css">
   <link rel="stylesheet" href="src/dist/css/mycss.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
 </head>
 
 <body class="bg-grey">
@@ -571,44 +576,238 @@
     <div class="container">
       <h1 class="title">Projects</h1>
       <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title" style="font-size:16px;">Origami Education</p>
-                <figure class="image is-3by4">
-                  <a href="https://origami-education.com/" target="_blank"><img src="src/dist/img/origami-web-cover.png"></a>
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title" style="font-size:16px;">ERP System</p>
-                <figure class="image is-3by4">
-                  <img class="modal-trigger" data-target="project-1-modal" src="src/dist/img/rnp-sys-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title"style="font-size:16px;">Sales & Inventory</p>
-                <figure class="image is-3by4">
-                  <img class="modal-trigger" data-target="project-2-modal" src="src/dist/img/turks-sys-cover.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title" style="font-size:16px;">Jewelry Website</p>
-                <figure class="image is-3by4">
-                  <img src="src/dist/img/rnp-web-cover.png">
-                </figure>
-              </article>
-            </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <table>
+              <tr>
+                <th>Year</th>
+                <th>Projects</th>
+                <th>Made At</th>
+                <th>Built with</th>
+                <th>Link</th>
+              </tr>
+              <tr>
+                <td>2024</td>
+                <td>Origami-education.com</td>
+                <td>Affirm Technology</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">Next JS</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">React JS</span>
+                    <span class="tag">MUI</span>
+                    <span class="tag">Mongo DB</span>
+                  </div>
+                </td>
+                <td>
+                  <a href="https://origami-education.com/" class="external-link" target="_blank" rel="noopener noreferrer">origami-education.com <span class="arrow">↗</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>2024</td>
+                <td>RFID-Based School Entrance<br>Monitoring System</td>
+                <td>Affirm Technology</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">RFID</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">API</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+              <tr>
+                <td>2023</td>
+                <td>School Management<br> & ERP System</td>
+                <td>Affirm Technology</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">RFID</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">API</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <a href="https://demo.origamieducation.com/" class="external-link" target="_blank" rel="noopener noreferrer">demo.origamieducation.com <span class="arrow">↗</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td>Turks Shawarma System</td>
+                <td>RNP Jewelry Inc.</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="external-link modal-trigger text-blue" data-target="project-3-modal">preview <span class="arrow"><i class="bi bi-images"></i></span></span>
+                </td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>Diamond Life By RNP</td>
+                <td>RNP Jewelry Inc.</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">WordPress</span>
+                    <span class="tag">Elementor</span>
+                    <span class="tag">Photoshop</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="external-link modal-trigger text-blue" data-target="project-2-modal">preview <span class="arrow"><i class="bi bi-images"></i></span></span>
+                </td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>Jewelry Management System</td>
+                <td>RNP Jewelry Inc.</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <span class="external-link modal-trigger text-blue" data-target="project-1-modal">preview <span class="arrow"><i class="bi bi-images"></i></span></span>
+                </td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>Witty</td>
+                <td></td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <a href="https://bitbucket.org/eaborja/witty/src/master/" class="external-link" target="_blank" rel="noopener noreferrer">bitbucket.org/eaborja/witty/ <span class="arrow">↗</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>Bux.ph (API Integration)</td>
+                <td>Electronic Transfer & Advance Processing, Inc. (eTap)</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">API</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+              <tr>
+                <td>2020</td>
+                <td>Get Go (API Integration)</td>
+                <td>Electronic Transfer & Advance Processing, Inc. (eTap)</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">API</span>
+                    <span class="tag">PHP</span>
+                    <span class="tag">CodeIgniter</span>
+                    <span class="tag">Bootstrap</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+              <tr>
+                <td>2017</td>
+                <td>Jewelry Manufacturing System</td>
+                <td>R&J Jewelry Class Ring & Metal Craft Inc.</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">JQuery</span>
+                    <span class="tag">MySQL</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+              <tr>
+                <td>2017</td>
+                <td>Font Scroll</td>
+                <td></td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                  </div>
+                </td>
+                <td>
+                  <a href="https://sandbox-aceborja.github.io/font-scroll/" class="external-link" target="_blank" rel="noopener noreferrer">sandbox-aceborja.github.io/font-scroll/ <span class="arrow">↗</span></a>
+                </td>
+              </tr>
+              <tr>
+                <td>2015</td>
+                <td>Inventory System</td>
+                <td>BizSupport</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Netbeans</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Apache</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+              <tr>
+                <td>2014</td>
+                <td>Ticketing System</td>
+                <td>BizSupport</td>
+                <td>
+                  <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Netbeans</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Apache</span>
+                  </div>
+                </td>
+                <td>
+                  <!-- TODO add images here -->
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
+      
     </div>
   </section>
 
@@ -640,6 +839,23 @@
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Certificate</h1>
+      <hr />
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4"><a href="https://drive.google.com/file/d/1gk3D5lRLrEXIAsLlWzVUbtA4UzbzJ7wA/view?usp=sharing">DICT - Region IV-B</a></p>
+            <p class="subtitle is-6 mb-1"><b>Python Programming Essentials</b> (<time datetime="August 2022">August 2022</time>)
+            </p>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 
@@ -705,12 +921,15 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">ERP System</p>
+        <p class="modal-card-title">Jewelry Management (ERP)</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-1-modal-carousel" class="carousel">
+          <figure class="image is-3by3 carousel-cell">
+            <img src="src/dist/img/rnp-sys-cover.png">
+          </figure>
           <figure class="image is-3by3 carousel-cell">
             <img src="src/dist/img/carousel1/1.png">
           </figure>
@@ -766,12 +985,52 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Turks Shawarma</p>
+        <p class="modal-card-title">Diamond Life By RNP</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-1-modal-carousel" class="carousel">
+          <figure class="image is-3by3 carousel-cell">
+            <img src="src/dist/img/rnp-web-cover.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>I built the Diamond Life by RNP website using WordPress and Elementor, designing custom layouts and interactive sections. 
+            I also used Photoshop to create branded graphics, resulting in a clean, 
+            responsive site that reflects the brand’s luxury style.
+          </p>
+
+          <div class="tags">
+            <span class="tag">WordPress</span>
+            <span class="tag">Elementor</span>
+            <span class="tag">Photoshop</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success bg-blue">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-3-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Turks Shawarma (ERP)</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-2-modal-carousel" class="carousel">
+          <figure class="image is-3by3 carousel-cell">
+            <img src="src/dist/img/turks-sys-cover.png">
+          </figure>
           <figure class="image is-3by3 carousel-cell">
             <img src="src/dist/img/carousel2/1.png">
           </figure>
@@ -825,6 +1084,10 @@
     </div>
   </footer>
 
+  <a href="https://sandbox-aceborja.github.io/aceborja/" class="floating-logo" aria-label="Home">
+    <img src="src/dist/img/logo.png" alt="Logo" />
+  </a>
+  
   <script src="src/dist/js/bundle.js"></script>
   <script src="src/dist/js/text-effect.js"></script>
 </body>
