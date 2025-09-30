@@ -234,3 +234,9 @@ body {
   width: 100%;
   border-collapse: collapse;
 }
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
