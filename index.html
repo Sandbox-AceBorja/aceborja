@@ -8,7 +8,7 @@
   <link rel="icon" href="src/dist/img/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="src/dist/css/main.bundle.css">
   <link rel="stylesheet" href="src/dist/css/mycss.css">
-  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <!-- <script src="https://kit.fontawesome.com/4e5a72c756.js"></script> -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
@@ -20,25 +20,26 @@
     <div class="navbar-brand">
       <div class="navbar-item is-hidden-desktop">
         <a href="https://github.com/sandbox-aceborja" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
+          <i class="bi bi-github" style="font-size: 2rem;"></i>
         </a>
       </div>
       <div class="navbar-item is-hidden-desktop">
         <a href="https://twitter.com/AceBorja7" class="icon is-large has-text-light">
-          <i class="fa fa-2x fa-twitter"></i>
+          <i class="bi bi-twitter-x" style="font-size: 2rem;"></i>
         </a>
       </div>
     </div>
+
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
           <a href="https://github.com/sandbox-aceborja" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
+            <i class="bi bi-github" style="font-size: 2rem;"></i>
           </a>
         </div>
         <div class="navbar-item">
           <a href="https://twitter.com/AceBorja7" class="icon is-large has-text-light">
-            <i class="fa fa-2x fa-twitter"></i>
+            <i class="bi bi-twitter-x" style="font-size: 2rem;"></i>
           </a>
         </div>
       </div>
@@ -68,21 +69,21 @@
             <div class="columns">
               <div class="column px-5">
                 <h2 class=" has-text-primary mb-2">
-                  <div class='console-container'><i class="fa fa-briefcase mr-2" aria-hidden="true"></i><span id='text'></span><div id='console'>&#95;</div></div>
+                  <div class='console-container'><i class="bi bi-briefcase-fill mr-2" aria-hidden="true"></i><span id='text'></span><div id='console'>&#95;</div></div>
                 </h2>
                 
                 <p class="has-text-primary mb-2">
-                  <i class="fa fa-envelope mr-1" aria-hidden="true"></i> sandbox-aceborja@gmail.com
+                  <i class="bi bi-envelope-fill mr-1" aria-hidden="true"></i> sandbox-aceborja@gmail.com
                 </p>
                 <p class="has-text-primary mb-2">
-                  <i class="fa fa-mobile mr-2" aria-hidden="true"></i> +63 929 815 6077
+                  <i class="bi bi-phone-fill mr-2" aria-hidden="true"></i> +63 929 815 6077
                 </p>
                 <p class="has-text-primary mb-2">
-                  <i class="fa fa-map-marker mr-2" aria-hidden="true"></i> Davao City, Philippines
+                  <i class="bi bi-geo-alt-fill mr-2" aria-hidden="true"></i> Davao City, Philippines
                 </p>
                 <p class="has-text-primary mb-4">
                   <a href="src/dist/docs/Borja_Eduardo_Ace_Resume.pdf">
-                    <i class="fas fa-file-download mr-2" aria-hidden="true"></i><strong class="text-blue"> Resume</strong>
+                    <i class="bi bi-file-earmark-arrow-down-fill mr-2" aria-hidden="true"></i><strong class="text-blue"> Resume</strong>
                   </a>
                 </p>
                 <p class="text-sm mb-4">
@@ -629,10 +630,11 @@
   <!-- Projects -->
   <section class="section">
     <div class="container">
+
       <h1 class="title">Project Portfolio</h1>
       <hr />
 
-      <div class="card">
+      <div class="card portfolio-table">
         <div class="card-content">
           <div class="content table-responsive">
             <table>
@@ -662,7 +664,7 @@
               </tr>
               <tr>
                 <td>2024</td>
-                <td>RFID-Based School Entrance<br>Monitoring System</td>
+                <td>RFID Attendance Monitoring System</td>
                 <td>Affirm Technology</td>
                 <td>
                   <div class="tags">
@@ -680,7 +682,7 @@
               </tr>
               <tr>
                 <td>2023</td>
-                <td>School Management<br> & ERP System</td>
+                <td>School Management & ERP System</td>
                 <td>Affirm Technology</td>
                 <td>
                   <div class="tags">
@@ -846,6 +848,214 @@
           </div>
         </div>
       </div>
+
+      <div class="portfolio-cards">
+        <!-- 2024 Origami -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Origami-education.com</p>
+            <p class="text-sm"><i class="bi bi-building"></i> Affirm Technology</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2024</p>
+            <p class="text-sm mt-2">
+              <a href="https://origami-education.com/" target="_blank" class="external-link">origami-education.com ↗</a>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">Next JS</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">React</span>
+              <span class="tag">MUI</span>
+              <span class="tag">Mongo DB</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2024 RFID -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> RFID Attendance Monitoring System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> Affirm Technology</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2024</p>
+            <p class="text-sm mt-2">
+              <span class="external-link modal-trigger text-blue" data-target="project-4-modal">
+                preview <span class="arrow"><i class="bi bi-play-circle-fill"></i></span>
+              </span>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">RFID</span>
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">API</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2023 School Management -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> School Management & ERP System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> Affirm Technology</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2023</p>
+            <p class="text-sm mt-2">
+              <a href="https://demo.origamieducation.com/" target="_blank" class="external-link">demo.origamieducation.com ↗</a>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">RFID</span>
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">API</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2022 Turks Shawarma -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Turks Shawarma System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> RNP Jewelry Inc.</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2022</p>
+            <p class="text-sm mt-2">
+              <span class="external-link modal-trigger text-blue" data-target="project-3-modal">
+                preview <span class="arrow"><i class="bi bi-images"></i></span>
+              </span>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2021 Diamond Life -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Diamond Life By RNP</p>
+            <p class="text-sm"><i class="bi bi-building"></i> RNP Jewelry Inc.</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2021</p>
+            <p class="text-sm mt-2">
+              <span class="external-link modal-trigger text-blue" data-target="project-2-modal">
+                preview <span class="arrow"><i class="bi bi-images"></i></span>
+              </span>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">WordPress</span>
+              <span class="tag">Elementor</span>
+              <span class="tag">Photoshop</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2021 Jewelry Management -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Jewelry Management System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> RNP Jewelry Inc.</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2021</p>
+            <p class="text-sm mt-2">
+              <span class="external-link modal-trigger text-blue" data-target="project-1-modal">
+                preview <span class="arrow"><i class="bi bi-images"></i></span>
+              </span>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2020 Bux.ph -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Bux.ph (API Integration)</p>
+            <p class="text-sm"><i class="bi bi-building"></i> Electronic Transfer & Advance Processing, Inc. (eTap)</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2020</p>
+            <div class="tags mt-5">
+              <span class="tag">API</span>
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2020 Get Go -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Get Go (API Integration)</p>
+            <p class="text-sm"><i class="bi bi-building"></i> Electronic Transfer & Advance Processing, Inc. (eTap)</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2020</p>
+            <div class="tags mt-5">
+              <span class="tag">API</span>
+              <span class="tag">PHP</span>
+              <span class="tag">CodeIgniter</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2017 Jewelry Manufacturing -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Jewelry Manufacturing System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> R&J Jewelry Class Ring & Metal Craft Inc.</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2017</p>
+            <div class="tags mt-5">
+              <span class="tag">PHP</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">JQuery</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2017 Font Scroll -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Font Scroll</p>
+            <p class="text-sm"><i class="bi bi-building"></i> — </p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2017</p>
+            <p class="text-sm mt-2">
+              <a href="https://sandbox-aceborja.github.io/font-scroll/" target="_blank" class="external-link">sandbox-aceborja.github.io/font-scroll ↗</a>
+            </p>
+            <div class="tags mt-5">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2015 Inventory -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Inventory System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> BizSupport</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2015</p>
+            <div class="tags mt-5">
+              <span class="tag">Java</span>
+              <span class="tag">Netbeans</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Apache</span>
+            </div>
+          </div>
+        </div>
+        <!-- 2014 Ticketing -->
+        <div class="card mb-5">
+          <div class="card-content">
+            <p class="text-sm"><i class="bi bi-laptop"></i> Ticketing System</p>
+            <p class="text-sm"><i class="bi bi-building"></i> BizSupport</p>
+            <p class="text-sm"><i class="bi bi-calendar-event"></i> 2014</p>
+            <div class="tags mt-5">
+              <span class="tag">Java</span>
+              <span class="tag">Netbeans</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Apache</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
       
     </div>
   </section>
@@ -909,33 +1119,41 @@
         <div class="level-item has-text-centered">
           <div>
             <a href="https://github.com/sandbox-aceborja" class="icon is-large">
-              <i class="fab fa-2x fa-github"></i>
+              <i class="bi bi-github" style="font-size: 2rem;"></i>
             </a>
-            <p class="heading"><a href="https://github.com/sandbox-aceborja">github.com/sandbox-aceborja</a></p>
+            <p class="heading">
+              <a href="https://github.com/sandbox-aceborja">github.com/sandbox-aceborja</a>
+            </p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <a href="https://twitter.com/AceBorja7" class="icon is-large">
-              <i class="fa fa-2x fa-twitter"></i>
+              <i class="bi bi-twitter" style="font-size: 2rem;"></i>
             </a>
-            <p class="heading"><a href="https://twitter.com/AceBorja7">twitter.com/AceBorja7</a></p>
+            <p class="heading">
+              <a href="https://twitter.com/AceBorja7">twitter.com/AceBorja7</a>
+            </p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <a href="mailto:sandbox.aceborja@gmail.com" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
+              <i class="bi bi-envelope-fill" style="font-size: 2rem;"></i>
             </a>
-            <p class="heading"><a href="mailto:sandbox.aceborja@gmail.com">sandbox.aceborja@gmail.com</a></p>
+            <p class="heading">
+              <a href="mailto:sandbox.aceborja@gmail.com">sandbox.aceborja@gmail.com</a>
+            </p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <a href="https://www.linkedin.com/in/sandbox-aceborja" class="icon is-large">
-              <i class="fab fa-2x fa-linkedin-in"></i>
+              <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
             </a>
-            <p class="heading"><a href="https://www.linkedin.com/in/sandbox-aceborja">linkedin</a></p>
+            <p class="heading">
+              <a href="https://www.linkedin.com/in/sandbox-aceborja">linkedin</a>
+            </p>
           </div>
         </div>
       </nav>

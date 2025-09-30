@@ -252,3 +252,21 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.portfolio-cards {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .portfolio-table {
+    display: none;
+  }
+  .portfolio-cards {
+    display: block;
+  }
+}
+
+.bi {
+  font-weight: bold;
+  -webkit-text-stroke: 0.3px; /* makes the icon appear thicker */
+}
