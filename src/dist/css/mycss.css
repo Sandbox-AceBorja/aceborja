@@ -270,3 +270,16 @@ body {
   font-weight: bold;
   -webkit-text-stroke: 0.3px; /* makes the icon appear thicker */
 }
+
+@media (max-width: 550px) {
+  .card .media-content .title.is-4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .subtitle.is-6 .date-range {
+    display: block;   /* forces new line */
+    margin-top: 0.25rem; /* optional spacing */
+  }
+}
